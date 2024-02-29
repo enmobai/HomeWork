@@ -1,0 +1,16 @@
+D:\重要文件\大二下\作业\软件架构基础\HomeWork2\bin\Debug\net6.0-windows\HomeWork2.exe
+D:\重要文件\大二下\作业\软件架构基础\HomeWork2\bin\Debug\net6.0-windows\HomeWork2.deps.json
+D:\重要文件\大二下\作业\软件架构基础\HomeWork2\bin\Debug\net6.0-windows\HomeWork2.runtimeconfig.json
+D:\重要文件\大二下\作业\软件架构基础\HomeWork2\bin\Debug\net6.0-windows\HomeWork2.dll
+D:\重要文件\大二下\作业\软件架构基础\HomeWork2\bin\Debug\net6.0-windows\HomeWork2.pdb
+D:\重要文件\大二下\作业\软件架构基础\HomeWork2\obj\Debug\net6.0-windows\HomeWork2.Form1.resources
+D:\重要文件\大二下\作业\软件架构基础\HomeWork2\obj\Debug\net6.0-windows\HomeWork2.csproj.GenerateResource.cache
+D:\重要文件\大二下\作业\软件架构基础\HomeWork2\obj\Debug\net6.0-windows\HomeWork2.GeneratedMSBuildEditorConfig.editorconfig
+D:\重要文件\大二下\作业\软件架构基础\HomeWork2\obj\Debug\net6.0-windows\HomeWork2.AssemblyInfoInputs.cache
+D:\重要文件\大二下\作业\软件架构基础\HomeWork2\obj\Debug\net6.0-windows\HomeWork2.AssemblyInfo.cs
+D:\重要文件\大二下\作业\软件架构基础\HomeWork2\obj\Debug\net6.0-windows\HomeWork2.csproj.CoreCompileInputs.cache
+D:\重要文件\大二下\作业\软件架构基础\HomeWork2\obj\Debug\net6.0-windows\HomeWork2.dll
+D:\重要文件\大二下\作业\软件架构基础\HomeWork2\obj\Debug\net6.0-windows\refint\HomeWork2.dll
+D:\重要文件\大二下\作业\软件架构基础\HomeWork2\obj\Debug\net6.0-windows\HomeWork2.pdb
+D:\重要文件\大二下\作业\软件架构基础\HomeWork2\obj\Debug\net6.0-windows\HomeWork2.genruntimeconfig.cache
+D:\重要文件\大二下\作业\软件架构基础\HomeWork2\obj\Debug\net6.0-windows\ref\HomeWork2.dll
