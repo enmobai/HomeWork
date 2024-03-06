@@ -5,7 +5,7 @@
         static void Main(string[] args)
         {
             string s;
-            Console.WriteLine("请输入数组（中间用空格隔开）");
+            Console.WriteLine("Please send the number");
             try
             {
                 s = Console.ReadLine();
@@ -14,30 +14,40 @@
                 Console.WriteLine(ex.ToString());
                 return;
             }
-            string[] nums = s.Split(" ");
-            Console.WriteLine("这些数中的素数有：");
-            for (int i = 0; i < nums.Length; i++)
+            int num=int.Parse(s);
+            Console.WriteLine("The prime factors of this number are:");
+            for (int i = 2;i<num ; )
             {
-                int tmp = int.Parse(nums[i]);
-                if (judge(tmp))
+                if (!judge(i)) { 
+                    i++;
+                    continue; 
+                }
+                if (num%i==0) {
+                    num = num / i;
+                    Console.Write(i+" ");
+                }
+                else
                 {
-                    Console.Write(tmp+" ");
+                    i++;
                 }
             }
-            
+            if (judge(num)) {
+                Console.Write(num);
+            }
         }
         static bool judge(int num)
         {
             if (num == 1)
             {
                 return false;
-            }else if(num == 2)
+            }
+            else if (num == 2)
             {
                 return true;
             }
             else
             {
-                for (int i = 2;i <= Math.Sqrt(num);i++)
+                for (int i = 2; i <= Math.Sqrt(num); i++)
                 {
                     if (num % i == 0)
                     {
@@ -46,6 +56,6 @@
                 }
             }
             return true;
-        } 
+        }
     }
 }
