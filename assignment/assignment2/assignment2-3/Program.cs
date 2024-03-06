@@ -12,13 +12,8 @@ namespace assignment2_3
                 list.Add(i);
             }
 
-            for (int i = 2;i < 50;)
+            for (int i = 2;i < 10;)
             {
-                if (!judge(i))
-                {
-                    i++;
-                    continue;
-                }
                 list.RemoveAll(x => x%i==0&&x/i>1);
                 i++;
             }
@@ -29,27 +24,6 @@ namespace assignment2_3
                 Console.Write(item+" ");
             }
         }
-        static bool judge(int num)
-        {
-            if (num == 1)
-            {
-                return false;
-            }
-            else if (num == 2)
-            {
-                return true;
-            }
-            else
-            {
-                for (int i = 2; i <= Math.Sqrt(num); i++)
-                {
-                    if (num % i == 0)
-                    {
-                        return false;
-                    }
-                }
-            }
-            return true;
-        }
+        
     }
 }
