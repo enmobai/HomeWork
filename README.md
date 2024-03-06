@@ -1,3 +1,1 @@
-# HomeWork of 软件构造基础
-
-
+# HomeWork of C#
