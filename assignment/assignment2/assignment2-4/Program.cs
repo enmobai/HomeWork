@@ -1,6 +1,4 @@
-﻿using System.Threading.Channels;
-
-namespace assignment2_4
+﻿namespace assignment2
 {
     internal class Program
     {
@@ -11,11 +9,11 @@ namespace assignment2_4
             int n;
             m = int.Parse(Console.ReadLine());
             n = int.Parse(Console.ReadLine());
-            int[,] arr = new int[m,n];
+            int[,] arr = new int[m, n];
             string s;
             for (int i = 0; i < m; i++)
             {
-                s= Console.ReadLine();
+                s = Console.ReadLine();
                 string[] arrs = s.Split(" ");
                 for (int j = 0; j < arrs.Length; j++)
                 {

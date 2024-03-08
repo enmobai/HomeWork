@@ -1,4 +1,4 @@
-﻿namespace assignment2_2
+﻿namespace assignment2
 {
     internal class Program
     {
@@ -16,7 +16,7 @@
                 return;
             }
             string[] stringArr = s.Split(" ");
-            int[] arr=new int[stringArr.Length];
+            int[] arr = new int[stringArr.Length];
             int sum = 0;
             int average;
             for (int i = 0; i < stringArr.Length; i++)
@@ -24,23 +24,25 @@
                 arr[i] = int.Parse(stringArr[i]);
                 sum = sum + arr[i];
             }
-            average = sum/ arr.Length;
+            average = sum / arr.Length;
             int max = arr[0];
-            for (int i = 0;i < arr.Length; i++) {
+            for (int i = 0; i < arr.Length; i++)
+            {
                 if (arr[i] > max)
                 {
                     max = arr[i];
                 }
             }
             int min = arr[0];
-            for (int i = 1; i < arr.Length; i++) {
+            for (int i = 1; i < arr.Length; i++)
+            {
                 if (arr[i] < min)
                 {
                     min = arr[i];
                 }
             }
-            Console.WriteLine("The maximum value of the array is "+max);
-            Console.WriteLine("The minimum value of the array is "+min);
+            Console.WriteLine("The maximum value of the array is " + max);
+            Console.WriteLine("The minimum value of the array is " + min);
             Console.WriteLine("The average value of the array is " + average);
             Console.WriteLine("The sum of the array elements is " + sum);
         }
