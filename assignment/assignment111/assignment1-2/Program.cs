@@ -1,4 +1,4 @@
-namespace assignment1_2
+namespace HomeWork2
 {
     internal static class Program
     {

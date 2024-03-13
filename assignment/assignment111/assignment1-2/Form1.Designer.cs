@@ -1,8 +1,4 @@
-﻿using static System.Net.Mime.MediaTypeNames;
-using System.Windows.Forms;
-using System.Xml.Linq;
-
-namespace assignment1_2
+﻿namespace HomeWork2
 {
     partial class Form1
     {
