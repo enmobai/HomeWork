@@ -73,6 +73,7 @@ namespace assignment1_2
             comboBox1.Name = "comboBox1";
             comboBox1.Size = new Size(47, 32);
             comboBox1.TabIndex = 4;
+            comboBox1.SelectedIndexChanged += comboBox1_SelectedIndexChanged;
             // 
             // label1
             // 
