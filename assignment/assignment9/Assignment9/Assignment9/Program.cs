@@ -1,23 +1,25 @@
-
 using Microsoft.EntityFrameworkCore;
 using Assignment9.Models;
 
-namespace Assignment9 {
-    public class Program {
-        public static void Main(string[] args) {
+namespace Assignment9
+{
+    public class Program
+    {
+        public static void Main(string[] args)
+        {
             var builder = WebApplication.CreateBuilder(args);
 
             builder.Services.AddControllers();
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
-            String? connnectionString= builder.Configuration.GetConnectionString("orderDB");
-            builder.Services.AddDbContext<OrderDbContext>(opt => opt.UseMySQL(connnectionString));
+            string? connectionString = builder.Configuration.GetConnectionString("orderDB");
+            builder.Services.AddDbContext<OrderDbContext>(opt => opt.UseMySQL(connectionString));
             builder.Services.AddScoped<OrderService>();
 
             var app = builder.Build();
 
-            // Configure the HTTP request pipeline.
-            if (app.Environment.IsDevelopment()) {
+            if (app.Environment.IsDevelopment())
+            {
                 app.UseSwagger();
                 app.UseSwaggerUI();
             }
@@ -25,7 +27,6 @@ namespace Assignment9 {
             app.UseHttpsRedirection();
 
             app.UseAuthorization();
-
 
             app.MapControllers();
 
